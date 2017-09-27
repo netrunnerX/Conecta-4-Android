@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_juego"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.netsewers.conecta4.Juego"
+    android:background="@android:color/background_dark">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:layout_alignTop="@+id/tableLayout"
+                android:layout_alignParentStart="true"
+                android:padding="20dip"
+                android:id="@+id/buttonA1"
+                android:onClick="pulsarCol1" />
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonA2"
+                android:onClick="pulsarCol2"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonA3"
+                android:onClick="pulsarCol3"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonA4"
+                android:onClick="pulsarCol4"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonA5"
+                android:onClick="pulsarCol5"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonA6"
+                android:onClick="pulsarCol6"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonA7"
+                android:onClick="pulsarCol7"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:layout_alignTop="@+id/tableLayout"
+                android:layout_alignParentStart="true"
+                android:padding="20dip"
+                android:id="@+id/buttonB1"
+                android:onClick="pulsarCol1"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonB2"
+                android:onClick="pulsarCol2"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonB3"
+                android:onClick="pulsarCol3"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonB4"
+                android:onClick="pulsarCol4"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonB5"
+                android:onClick="pulsarCol5"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonB6"
+                android:onClick="pulsarCol6"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonB7"
+                android:onClick="pulsarCol7"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:layout_alignTop="@+id/tableLayout"
+                android:layout_alignParentStart="true"
+                android:padding="20dip"
+                android:id="@+id/buttonC1"
+                android:onClick="pulsarCol1"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonC2"
+                android:onClick="pulsarCol2"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonC3"
+                android:onClick="pulsarCol3"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonC4"
+                android:onClick="pulsarCol4"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonC5"
+                android:onClick="pulsarCol5"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonC6"
+                android:onClick="pulsarCol6"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonC7"
+                android:onClick="pulsarCol7"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:layout_alignTop="@+id/tableLayout"
+                android:layout_alignParentStart="true"
+                android:padding="20dip"
+                android:id="@+id/buttonD1"
+                android:onClick="pulsarCol1"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonD2"
+                android:onClick="pulsarCol2"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonD3"
+                android:onClick="pulsarCol3"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonD4"
+                android:onClick="pulsarCol4"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonD5"
+                android:onClick="pulsarCol5"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonD6"
+                android:onClick="pulsarCol6"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonD7"
+                android:onClick="pulsarCol7"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:layout_alignTop="@+id/tableLayout"
+                android:layout_alignParentStart="true"
+                android:padding="20dip"
+                android:id="@+id/buttonE1"
+                android:onClick="pulsarCol1"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonE2"
+                android:onClick="pulsarCol2"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonE3"
+                android:onClick="pulsarCol3"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonE4"
+                android:onClick="pulsarCol4"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonE5"
+                android:onClick="pulsarCol5"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonE6"
+                android:onClick="pulsarCol6"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonE7"
+                android:onClick="pulsarCol7"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:layout_alignTop="@+id/tableLayout"
+                android:layout_alignParentStart="true"
+                android:padding="20dip"
+                android:id="@+id/buttonF1"
+                android:onClick="pulsarCol1"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonF2"
+                android:onClick="pulsarCol2"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonF3"
+                android:onClick="pulsarCol3"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonF4"
+                android:onClick="pulsarCol4"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonF5"
+                android:onClick="pulsarCol5"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonF6"
+                android:onClick="pulsarCol6"/>
+
+            <Button
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/casilla_vacia"
+                android:padding="20dip"
+                android:id="@+id/buttonF7"
+                android:onClick="pulsarCol7"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTurno"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="Pausar partida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botonPausar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_boton"
+        android:onClick="pausarPartida"/>
+
+</RelativeLayout>

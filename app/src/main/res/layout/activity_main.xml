@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.netsewers.conecta4.MainActivity"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="179dp"
+            app:srcCompat="@drawable/titulo"
+            android:id="@+id/imageView"
+            android:layout_margin="30dp"/>
+
+        <Button
+            android:text="Jugador vs Jugador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonPvp"
+            android:background="@drawable/shape_boton"
+            android:onClick="jugarContraJugador"/>
+
+        <Button
+            android:text="Jugador vs cpu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonPvc"
+            android:background="@drawable/shape_boton"
+            android:onClick="jugarContraMaquina"/>
+
+        <Button
+            android:text="Reanudar Partida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonReanudar"
+            android:background="@drawable/shape_boton"
+            android:onClick="reanudarPartida"/>
+
+        <Button
+            android:text="Ranking Top 3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonRanking"
+            android:background="@drawable/shape_boton"
+            android:onClick="mostrarPuntuaciones"/>
+    </LinearLayout>
+</RelativeLayout>
